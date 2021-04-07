@@ -1,6 +1,8 @@
+
 .modal-title{
-    font-size: xx-large;
+    font-size: 3rem;
     font-weight: 700;
+    margin-top: -1rem;
 }
 .modal-content{
     background: #F7F8F8;
@@ -151,7 +153,8 @@ textarea:focus, input:focus{
     float: right;
 }
 .card-title{
-    width: 50%;
+    width: 100%;
+    font-size: 2rem;
 }
 .image{
     float: right;
@@ -191,6 +194,13 @@ textarea:focus, input:focus{
     width: 100%;
     height: 100%;
 }
+.campaign-heading{
+    font-size: 6rem;
+    font-weight: 800;
+    padding-top:5rem;
+    word-spacing: 5rem;
+    letter-spacing: 0.3rem;
+}
 .modal-body-campaign{
     margin-top: 1rem;
     width: 60%;
@@ -199,6 +209,11 @@ textarea:focus, input:focus{
     background-color: #253972;
     color: white;
     margin-top: 3rem;
+    background-image: url("../images/bg-02.svg");
+
+}
+.collab-image{
+    height:200px;
 }
 a{
     text-decoration: none;

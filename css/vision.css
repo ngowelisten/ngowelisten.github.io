@@ -1,17 +1,22 @@
+
 .vision{
-    margin-top: 4rem;
-    background-image: url("../images/Vector.jpg");
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+    background-image: url("../images/bg-01.svg");
+    background-color: #F9F9F9;
     color: #253972;
+
 }
 .vision-heading{
     font-size: 6rem;
     font-weight: 800;
     margin:7rem 0rem;
+    word-spacing: 5rem;
+    letter-spacing: 0.3rem;
 }
 .vision-img{
-    width: 500px;
-    height:450px;
-    margin-top: 12%;
+    height:650px;
+    margin-top: -3%;
     border-radius: 3rem;
 }
 .vision-text{
@@ -19,6 +24,8 @@
     width: 74%;
     line-height: 50px;
     margin-bottom: 13rem;
+    margin-top:-6rem;
+
 }
 .vision-btn{
     float: right;
@@ -26,8 +33,8 @@
     color: white;
     border-radius: 3rem;
     padding: 0.1rem 2rem;
-    margin-top: 2rem;
-    margin-right: 2rem;
+    margin-top: -2rem;
+    margin-right: 7rem;
     font-size: x-large;
 }
 .vision-btn:hover{

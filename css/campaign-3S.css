@@ -1,4 +1,7 @@
 
+html{
+    font-family: Product Sans;
+}
 .hidden{
     visibility: hidden;
     width: 0;

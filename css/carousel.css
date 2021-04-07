@@ -1,7 +1,15 @@
+html{
+    font-family: Product Sans;
+
+}
 body {
-    background: #253972;
-    font: 15px/20px Arial, sans-serif;
+    font-family: Product Sans;
+    overflow-x: hidden;
+    /*background-color: #253972;*/
   }
+  body::-webkit-scrollbar {
+  display: none;
+}
   /* Header */
   .bg-custom{
     background-color: #253972;
@@ -14,6 +22,7 @@ body {
 .head-image{
     width: 5%;
 }
+
 li{
     margin-right: 1%;
 }
@@ -33,18 +42,27 @@ li{
   padding: 0.6rem 1.1rem;
   color: white;
   position: absolute;
-  top: 60%;
-  right: 15%;
+  top: 58%;
+  right: -27%;
   border-radius: 2.065rem;
 }
 .share-link:hover{
   color: white;
 }
+.carousel-section{
+  height:750px;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  background-color: #253972;
+    background-image: url("../images/bg-02.svg");
+
+}
   .carousel-container {
-    width: 750px;
-    height: 400px;
+    height:500px;
     position: relative;
-    margin-left: 25rem;
+    
+    margin:auto;
+    width:80%;
     padding: 35px 0px;
   /*   perspective: 1000px; */
   }
@@ -68,15 +86,16 @@ li{
     transition: transform .3s;
     display: block;
     position: absolute;
-    width: 750px;
+    width: 50vw;
     height: 400px;
     font-size: 5em;
     text-align: center;
     color: #FFF;
     border-radius: 10px;
     z-index: -10;
+    padding-left: 30%;
+    padding-right: 30%;
     transform: translateX(20%) scale(.1);
-    padding-right: 45px;
   }
   
   .prev-move .item.next {
@@ -121,7 +140,7 @@ li{
   .c_next, .c_prev {
     color: #444;
     position: absolute;
-    top: 220px;
+    top: 32%;
     padding: 0.6em 0.7em;
     cursor: pointer;
     background: #C4C4C4;
@@ -178,7 +197,7 @@ li{
     left: 1em; 
     }
   .share-link{
-    right:38%;
+    right:8%;
   }
 }
 @media (max-width: 780px){
