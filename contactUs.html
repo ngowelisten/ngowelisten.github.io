@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Listen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script>
+       $(window).on('load', function() {
+           AOS.init({
+             duration: 1000,
+             once: true
+           });
+         });
+    </script>
+
+<script>
+  $(function(){
+    $("#header").load("navbar.html"); 
+  });
+  $(function(){
+    $("footer").load("footer.html"); 
+  });
+
+  </script>
+    <link rel="stylesheet" href="css/contactUs.css">
+  
+</head>
+
+<style>
+    body{
+        background-image: url("images/bg-01.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        background-size: cover;
+    }
+</style>
+<body>
+    <div id="header"> </div>
+
+
+    <!-- main -->
+    <div class="main-section container" style="margin-top:100px">
+        <div class="main-heading"  >Contact Us</div>
+                    
+                 
+      
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up">
+                    <h1 style="margin-top: 2.5rem;font-weight:600;">Drop A Message</h1>
+                    <form action=" " method="post">
+    
+                        <div class="form-group">
+                            <input type="text" name="name" id=""   placeholder="Name:">
+                        </div>
+                   
+                        <div class="form-group">
+                            <input type="number" name="email"   id="" placeholder="Email ID:">
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" name="purpose"   id="" placeholder="Purpose Of Enquiry:"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" name="message"   id="" placeholder="Enter Message:"></textarea>
+                        </div>
+                     
+            
+                        <center>
+                            <button class="submit my-4" type="submit btn ">Let us Know!</button>
+                        </center>
+                    </form>
+                    
+                </div>
+    
+                <div class="col-md-6"  data-aos="fade-up">
+                    <h1 style="margin-top: 2.5rem;font-weight:600;"></h1>
+                    <div class="rect-1">
+
+                        <img src="images/Contact.png" alt="contact_image" />
+                    </div>
+
+                </div>
+            </div>
+        
+        <br/>
+      
+        
+    </div>
+
+
+    <footer></footer>
+
+
+
+
+
+
+    <script src="https://use.fontawesome.com/0d093bf583.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
