@@ -1,0 +1,116 @@
+
+.vision{
+
+    background-image: url("../images/bg-01.svg");
+    background-color: #F9F9F9;
+    color: #253972;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    background-size: cover;
+   
+
+}
+
+.vision-heading{
+    font-size: 6rem;
+    font-weight: 800;
+    margin-top:5rem ;
+    margin-bottom:0rem ;
+    /* word-spacing: 5rem; */
+    letter-spacing: 0.3rem;
+}
+.vision-img{
+    height:650px;
+    margin-top: 50px;
+    border-radius: 3rem;
+}
+.vision-text{
+    font-size: 2rem;
+
+    line-height: 40px;
+    margin-bottom: 8rem;
+  
+    text-align: justify;
+
+
+}
+
+
+
+.vision-btn:hover{
+    background: linear-gradient(#253972,black);
+    color: whitesmoke;
+}
+
+
+
+/* about us flavour missiomn */
+
+.aboutus-content{
+    width: 80%;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+
+.mission-img{
+    height: 100%;
+    width: 120%;
+}
+
+
+
+.bg-2{
+    background-image: url("../images/bg-02.svg");
+    color: #E5E5E5;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    background-size: cover;
+}
+
+
+.heading-largest{
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.aboutus{
+    
+    padding-bottom: 7rem;
+}
+
+@media screen and (max-width: 600px) {
+
+.vision-img{
+    height:650px;
+    margin-top: -150px;
+    border-radius: 3rem;
+    width: 90vw;
+}
+
+.vision-text{
+    font-size: 2rem;
+    width: 100%;
+    line-height: 50px;
+    margin-bottom: 13rem;
+    /* margin-top:-6rem; */
+
+}
+
+.mission-img{
+    height: 100%;
+    width: 100%;
+}
+
+.aboutus-content{
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+
+}

@@ -1,0 +1,209 @@
+
+.hidden{
+    /* visibility: hidden; */
+    display: none;
+    width: 0;
+    max-height: 0;
+    transition: max-height 2s ease-in;
+}
+.visible{
+    max-height: auto;
+    width: auto;
+    visibility: visible;
+    transition: max-height 2s ease-in;
+}
+
+.ongoingCampaigns{
+    background-image: url("../images/bg-01.svg");
+    color: #253972;
+    padding-bottom: 50px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    background-size: cover;
+}
+.upcomingCampaigns{
+    background-color: #253972;
+    color: white;
+  padding-bottom: 50px;
+    background-image: url("../images/bg-02.svg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    background-size: cover;
+}
+.previousCampaigns{
+    background-image: url("../images/bg-01.svg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    background-size: cover;
+    color: #253972;
+    padding-bottom: 50px;
+}
+
+.c1 .card-body{
+    background-color:#253972;
+    color: #F7F5F5;
+    border-radius: 0.7rem;
+}.c1 .card-body .card-img-bottom{
+    width: 70%;
+    height: 70%;
+    float: right;
+}
+.c2 .card-body{
+ 
+    color:#253972;
+    border-radius: 0.7rem;
+}.c2 .card-body .card-img-bottom{
+    width: 70%;
+    height: 70%;
+    float: right;
+}
+.c3 .card-body{
+   
+    color:#253972;
+    border-radius: 0.7rem;
+    border: 2px solid #253972;
+}
+.c3 .card-body .card-img-bottom{
+    width: 70%;
+    height: 70%;
+    float: right;
+}
+
+.card{
+    height: 100%;
+    border-radius: 7rem !important;
+
+    outline: none !important;
+    border: none !important;
+}
+.card-title{
+    width: 100%;
+    font-size: 1.7rem;
+
+}
+.col-xl-3, .col-lg-4, .col-md-6{
+    align-items: center;
+    margin-bottom: 4%;
+    float: left;
+}
+
+
+
+
+
+.campaign-img{
+    width: 100%;
+    height: 100%;
+}
+.modal-image{
+    border-radius: 2.065rem;
+    width: 2rem;
+    height: 70%;
+    padding: 0;
+    margin:0;
+}
+.campaign-heading{
+    color: #253972;font-size: 6rem;font-weight: bold;margin-bottom:2.5rem;
+}
+
+
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width: 900px;
+    }
+    .container{
+        max-width: 1200px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .container{
+        width: 95%;
+    }
+    .modal-body{
+        font-size: 19px;
+        padding: 15px;
+        margin-bottom: 10%;
+        font-weight: 550;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+
+.campaign-heading{
+    color: #253972;font-size: 3.5rem;font-weight: bold;margin-bottom:2rem;
+}
+
+}
+@media only screen and (max-width: 600px){
+    .container{
+        width: 95%;
+        align-items: center;
+    }
+    i{
+        padding: 3%;
+    }
+    .modal-bottom-btns{
+        float: none;
+    }
+    .footer{
+        display: grid;
+    }
+    .modal-icon{
+        padding: 3.8%;
+        margin: 2%;
+    }
+    .modal-icons{
+        margin-left: 12%;
+    }
+    .modal-img{
+        margin-left: 7.8%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .container{
+        width: 100%;
+    }
+    .modal-img{
+        margin-left: 11.8%;
+    }
+}
+@media only screen and (max-width: 330px){
+    .container{
+        width: 100%;
+    }
+    .modal-img{
+        margin-left: 3.8%;
+    }
+}
+
+@media (min-width:300px){
+    .modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+}
+@media (min-width: 420px){
+    .modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+}
+
+@media (min-width: 750px){
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+    }
+@media (min-width:1020px){
+    .modal-dialog{
+        max-width: 1090px !important;
+    }
+}

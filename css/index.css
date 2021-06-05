@@ -1,0 +1,39 @@
+
+html{
+	margin:0;
+	padding: 0;
+	font-family: Product Sans;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	
+}
+
+body::-webkit-scrollbar {
+	display: none;
+  }
+
+
+body {
+  margin: 0;
+  font-family: Product Sans;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+ 
+}
+
+
+
+a{
+	text-decoration: none !important;
+}
+
+button{
+	outline: none !important;
+	border-style: none !important;
+	border:none !important;
+
+}
+
+
+.collaboration-card ,.collaboration-card .card-body {
+    background-color: #253972 !important;
+}

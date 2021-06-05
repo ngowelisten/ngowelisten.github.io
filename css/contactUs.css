@@ -1,0 +1,73 @@
+
+.main-section{
+    margin-top: 2rem;
+    color: #253972;
+   
+}
+.main-heading{
+   font-size: 4rem;
+   font-weight: 700; 
+}
+.b-text{
+    font-size: xx-large;
+}
+/* form */
+form{
+    margin-top: 3rem;
+}
+
+/* Input placeholder colors */
+input::placeholder,textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #253972;
+    opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #253972;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #253972;
+}
+
+/* input borders */
+
+input,textarea{
+    border: none;
+    border-bottom: 2px solid #253972;
+    line-height: 230% !important;
+    width: 100%;
+    margin-bottom: 2rem !important;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    border-bottom: 2px solid skyblue;
+}
+/* Submit / Let us know Button */
+.submit{
+    background-color: #253972;
+    color: white;
+    border-radius: 3rem;
+    padding: 0.2rem 1rem;
+    border: none;
+    float: right;
+}
+/* Rectangle 1  */
+
+
+.rect-1 img{
+    margin-top: -2.5rem;
+   height:600px;
+   width:400px;
+   margin-left: 4rem;
+}
+/* hr tag styling */
+
+@media only screen and (max-width:600px){
+    .rect-1 img{
+        margin-top: -3rem;
+       height:500px;
+       width:400px;
+       margin-left: -2rem;
+    }
+}
