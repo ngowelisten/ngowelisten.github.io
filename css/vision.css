@@ -52,6 +52,7 @@
     width: 80%;
     font-size: 1.7rem;
     text-align: justify;
+    line-height: 40px;
 }
 
 
@@ -86,16 +87,16 @@
 @media screen and (max-width: 600px) {
 
 .vision-img{
-    height:650px;
-    margin-top: -150px;
+    height:400px;
+    margin-top: -250px;
     border-radius: 3rem;
-    width: 90vw;
+    width: 95vw;
 }
 
 .vision-text{
-    font-size: 2rem;
+    font-size: medium;
     width: 100%;
-    line-height: 50px;
+    line-height: 20px;
     margin-bottom: 13rem;
     /* margin-top:-6rem; */
 
@@ -104,12 +105,26 @@
 .mission-img{
     height: 100%;
     width: 100%;
+    margin-top:-20px;
 }
 
 .aboutus-content{
     width: 100%;
-    font-size: 1.7rem;
+    font-size: medium;
     text-align: justify;
+    line-height: 20px;
+}
+
+.vision-heading{
+font-size:3rem;
+margin-top:1rem ;
+font-weight: 900px;
+letter-spacing: 0.2rem;
+}
+
+
+.collaboration{
+    padding-top: 2.5rem !important;
 }
 
 

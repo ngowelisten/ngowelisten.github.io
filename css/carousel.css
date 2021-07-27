@@ -36,6 +36,7 @@
   font-size:1.8rem;
   left:50%;
   transform: translateX(-50%);
+ 
 }
 
 
@@ -50,8 +51,13 @@
 
 }
 
+.carousel-item .mob{
+  display:none !important;
+}
 
-
+.carousel-item .desk{
+  display:block !important;
+}
 
 @media only screen and (max-width: 900px){
 
@@ -69,13 +75,32 @@
 .carousel__text{
 
   position:absolute;
-  font-size: 18px;
+  font-size: 24px;
   color: #F9F9F9;
-  bottom:5%;
+  bottom:10%;
   left:50%;
   transform: translateX(-50%);
+  width:90%;
+}
+.carousel-inner img {
+
+  height: 350px;
+
+  border-radius: 20px;
+
 }
 
+.carousel-main .carousel__center{
+  top:35%;
+}
+
+.carousel-item .mob{
+  display:block !important;
+}
+
+.carousel-item .desk{
+  display:none !important;
+}
 
 }
 

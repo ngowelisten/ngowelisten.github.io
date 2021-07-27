@@ -380,9 +380,105 @@ a{
 }
 @media only screen and (max-width:700px){
   .campaign-heading{
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 800;
  
         letter-spacing: 0.1rem;
     }
+
+    .campaign{
+        padding-bottom: 50px;
+    }
+
+    .aboutus{
+        padding-top:50px !important;
+        padding-bottom:2rem !important;
+    }
+    .bottom-btn{
+        border: none;
+        border-radius: 3rem;
+       background-color:transparent;
+       color:#253972 ;
+        border: 3px solid #253972 !important ; 
+        font-size: medium;
+        font-weight: bold;
+        padding: 0.1rem 0.1rem;
+        margin: 0.1rem;
+        float: right;
+    }
+
+    .modal-footer{
+        padding:0 !important;
+        width:90%;
+
+    }
+
+    .modal-content{
+        padding:15px !important;
+    }
+
+
+    .modal-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    .modal-icons-campaign{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 8px;
+     
+        /* padding: 10px; */
+    }
+    .modal-icon{
+        margin-right: 10px !important ;
+        font-size: 1.5rem !important;
+    }
+    .modal-body-content{
+        line-height:30px;
+    }
+
+    .modal-bottom-btns{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+    }
+
+    .modal-bottom-btns .bottom-btn{
+        margin-right: 5px;
+        padding: 3px 3px;
+        font-size:15px;
+    }
+    .campaign-img{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+    }
+
+    .modal-img{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .modal{
+        width:90% !important;
+        left:50% !important;
+        transform:translateX(-50%) !important;
+        /* z-index: 100; */
+    }
+
+    .modal-title{
+        font-size:2rem;
+    }
+    .modal-body-campaign {
+        font-size:medium !important;
+        line-height:20px !important;
+    }
+
+
 }
