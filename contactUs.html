@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.css" integrity="sha512-NXUhxhkDgZYOMjaIgd89zF2w51Mub53Ru3zCNp5LTlEzMbNNAjTjDbpURYGS5Mop2cU4b7re1nOIucsVlrx9fA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.js" integrity="sha512-mgZL3SZ/vIooDg2mU2amX6NysMlthFl/jDbscSRgF/k3zmICLe6muAs7YbITZ+61FeUoo1plofYAocoR5Sa1rQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script>
        $(window).on('load', function() {
            AOS.init({
@@ -57,25 +61,26 @@
             <div class="row">
                 <div class="col-md-6" data-aos="fade-up">
                     <h1 style="margin-top: 2.5rem;font-weight:600;">Drop A Message</h1>
-                    <form action=" " method="post">
+                    <form id="formData">
     
                         <div class="form-group">
-                            <input type="text" name="name" id=""   placeholder="Name:">
+                            <input required type="text" name="Name" id=""   placeholder="Name:">
                         </div>
                    
                         <div class="form-group">
-                            <input type="number" name="email"   id="" placeholder="Email ID:">
+                            <input required type="email" name="Email"   id="" placeholder="Email ID:">
                         </div>
                         <div class="form-group">
-                            <textarea type="text" name="purpose"   id="" placeholder="Purpose Of Enquiry:"></textarea>
+                            <textarea  required type="text" name="Purpose"   id="" placeholder="Purpose Of Enquiry:"></textarea>
                         </div>
                         <div class="form-group">
-                            <textarea type="text" name="message"   id="" placeholder="Enter Message:"></textarea>
+                            <textarea required type="text" name="Message"   id="" placeholder="Enter Message:"></textarea>
                         </div>
                      
             
                         <center>
-                            <button class="submit my-4" type="submit btn ">Let us Know!</button>
+                            <button class="submit my-4" type="submit btn " >Let us Know!</button>
+                            <div class="spinner-border my-4" id="loader" style="display: none"></div>
                         </center>
                     </form>
                     
@@ -84,8 +89,8 @@
                 <div class="col-md-6"  data-aos="fade-up">
                     <h1 style="margin-top: 2.5rem;font-weight:600;"></h1>
                     <div class="rect-1">
-
-                        <img src="images/Contact.png" alt="contact_image" />
+<center>
+    <img src="images/Contact.png" alt="contact_image" /></center>
                     </div>
 
                 </div>
@@ -107,5 +112,6 @@
     <script src="https://use.fontawesome.com/0d093bf583.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/messagesend.js"></script>
 </body>
 </html>

@@ -51,6 +51,8 @@ input:focus, textarea:focus, select:focus{
     padding: 0.2rem 1rem;
     border: none;
     float: right;
+    z-index: 10000 !important;
+    position: relative !important;
 }
 /* Rectangle 1  */
 
@@ -65,9 +67,23 @@ input:focus, textarea:focus, select:focus{
 
 @media only screen and (max-width:600px){
     .rect-1 img{
-        margin-top: -3rem;
+        margin-top: -4rem;
        height:500px;
-       width:400px;
+       width:90%;
        margin-left: -2rem;
+       z-index:-1;
+    }
+    input,textarea{
+        border: none;
+        border-bottom: 2px solid #253972;
+        line-height: 230% !important;
+        width: 100%;
+        margin-bottom: 0.2rem !important;
+   
+    }
+
+    .submit{
+        z-index: 10000;
+        position: relative;
     }
 }
